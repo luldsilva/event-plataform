@@ -25,7 +25,7 @@ export function Subscribe() {
     <div className="min-h-screen bg-blur bg-cover bg-no-repeat flex flex-col items-center">
       <div className="max-w-[1100x] flex items-center justify-between mt-20 mx-auto">
         <div className="max-w-[640px]">
-          <h1>Logo</h1>
+          <img src="/src/assets/logo.png"/>
           <h1 className="mt-8 text-[2.5rem] leading-tight">
             Construa uma <strong className="text-blue-500">aplicacao</strong> do zero, com <strong className="text-blue-500">React</strong>
           </h1>
