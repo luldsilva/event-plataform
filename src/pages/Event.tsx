@@ -5,7 +5,7 @@ import { Video } from "../components/Video"
 export function Event() {
   const { slug } = useParams<{slug: string}>()
   return (
-    <div className="flex flex-col min-h-screen">
+    <div className="flex flex-col min-h-screen bg-blur">
       <Header />
       <main className="flex flex-1">
         {slug ?
